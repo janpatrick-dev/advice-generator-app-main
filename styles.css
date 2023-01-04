@@ -1,0 +1,94 @@
+:root {
+    --color-primary-light-cyan: hsl(193, 38%, 86%);
+    --color-primary-neon-green: hsl(150, 100%, 66%);
+
+    --color-greyish-blue: hsl(217, 19%, 38%);
+    --color-dark-greyish-blue: hsl(217, 19%, 24%);
+    --color-dark-blue: hsl(218, 23%, 16%);
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: var(--color-primary-light-cyan);
+    background-color: var(--color-dark-blue);
+    font-family: 'Manrope', sans-serif;
+    box-sizing: inherit;
+    overflow: hidden;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.advice-card {
+    max-width: 500px;
+    padding: 30px 25px 50px 25px;
+    border-radius: 10px;
+    background-color: var(--color-dark-greyish-blue);
+    position: relative;
+}
+
+.advice-details {
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.advice-number {
+    color: var(--color-primary-neon-green);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.advice-quote {
+    color: var(--color-primary-light-cyan);
+    font-size: 28px;
+}
+
+.advice-divider {
+    width: 100%;
+}
+
+.random-quote-btn {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--color-primary-neon-green);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-quote-btn:hover {
+    background-color: var(--color-primary-light-cyan);
+}
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
