@@ -50,6 +50,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.janpatrickpalacio.com/)
+- Website - [Jan Patrick Palacio](https://www.janpatrickpalacio.com/)
 - Frontend Mentor - [@janpatrick-dev](https://www.frontendmentor.io/profile/janpatrick-dev)
 - LinkedIn - [@janpatrickpalacio](https://www.linkedin.com/in/janpatrickpalacio/)
